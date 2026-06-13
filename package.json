@@ -1,0 +1,10 @@
+{
+  "name": "sriely",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "serve . -p ${PORT:-8080} -s"
+  },
+  "dependencies": {
+    "serve": "^14.2.4"
+  }
+}
