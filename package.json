@@ -1,10 +1,7 @@
 {
-  "name": "sriely",
-  "version": "1.0.0",
+  "name": "telegram-notify",
+  "private": true,
   "scripts": {
-    "start": "serve . -p ${PORT:-8080} -s"
-  },
-  "dependencies": {
-    "serve": "^14.2.4"
+    "send": "node --env-file=.env telegram-send.mjs"
   }
 }
