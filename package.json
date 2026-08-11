@@ -2,6 +2,7 @@
   "name": "telegram-notify",
   "private": true,
   "scripts": {
-    "send": "node --env-file=.env telegram-send.mjs"
+    "send": "node --env-file=.env telegram-send.mjs",
+    "start": "npx serve . -l 3000"
   }
 }

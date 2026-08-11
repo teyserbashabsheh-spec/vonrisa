@@ -1,10 +1,7 @@
 services:
   - type: web
     name: vonrisa
-    runtime: static
-    staticPublishPath: .
+    runtime: node
+    buildCommand: yarn
+    startCommand: npx serve . -l $PORT
     pullRequestPreviewsEnabled: false
-    routes:
-      - type: rewrite
-        source: /*
-        destination: /index.html
